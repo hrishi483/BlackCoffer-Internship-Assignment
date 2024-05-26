@@ -1,0 +1,13 @@
+1. explaining how you approached the solution
+Data Extraction: 
+Opended the Websites and tried to identify the HTML elements  storing the required blog content and the blog title. Using Beautiful Soup I tried to find the elements and then 
+extracted the text from those websites. For Content of each Blog I made a separate .txt file that contains the blog title and the content of the blog. This folder was named as text.
+
+Cleaning the text:
+From the given folder I stored all the stopwords in python list and then removed those stopwords from the .txt files stored earlier. The resultant text generated was stored in another folder named filtered
+
+Filling the Output Data Structure
+As per the description given for each Output Variable I have written separate functions in the python file. Some of the Variables such as positive and negative scores required list of positive and negative words which were provided with in the assignments itself. 
+For the text files stored in folder named filtered I read each text file and calculated corresponding Variables then filled them in the respective rows.
+
+****Note***** Some of the url links were broken so I have filled them with Error 404 in the Output.csv 
